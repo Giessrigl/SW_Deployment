@@ -22,7 +22,7 @@ https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/template
 
   
 
-Altough I skipped "8 - Use Quickstart template" in this process.
+Although I skipped "8 - Use Quickstart template" in this process.
 
   
 
