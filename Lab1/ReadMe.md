@@ -28,16 +28,16 @@ https://docs.microsoft.com/en-us/azure/app-service/quickstart-arm-template?pivot
 
 
 ### Parameters:
-storagePrefix:<br>          a prefix for the storage name, concatenates with ID to create a unique storage name. ID stays the same until
+**storagePrefix:**<br>          a prefix for the storage name, concatenates with ID to create a unique storage name. ID stays the same until
                             resource-group is changed
-storageSKU:<br>             the SKU type of the Storage Account
-appServicePlanName:<br>     the name of the Application-Service-Plan
-resourceTags:<br>           defines the environment, in which will be deployed (e.g. Dev, Production, ...)
+**storageSKU:**<br>             the SKU type of the Storage Account
+**appServicePlanName:**<br>     the name of the Application-Service-Plan
+**resourceTags:**<br>           defines the environment, in which will be deployed (e.g. Dev, Production, ...)
                             and the Projecttype (in this case an exercise)
-repoUrl:<br>                the Url of the repository for the Node.js Web App
+**repoUrl:**<br>                the Url of the repository for the Node.js Web App
 
-webAppName:<br>             the Name of the Webapp, this will be necessary for the URL of the web app<br> 
+**webAppName:**<br>             the Name of the Webapp, this will be necessary for the URL of the web app<br> 
                             ( http://{webAppName}.azurewebsites.net/ )<br>
                             the complete URL will also be mentioned as an output of the deployment
-linuxFxVersion:<br>        the programming language stack for the web application (default value is Node|10.15)
-location:<br>               the location of the deployed resources (default value is the location of the resource-group)
+**linuxFxVersion:**<br>        the programming language stack for the web application (default value is Node|10.15)
+**location:**<br>               the location of the deployed resources (default value is the location of the resource-group)
