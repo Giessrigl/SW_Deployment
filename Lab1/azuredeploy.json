@@ -25,7 +25,7 @@
             "defaultValue": 
             {
                 "Environment": "Dev",
-                "Project": "Tutorial"
+                "Project": "Exercise"
             }
         },
         "appServicePlanName": 
@@ -64,7 +64,7 @@
     "variables": 
     {
         "uniqueStorageName": "[concat(parameters('storagePrefix'), uniqueString(resourceGroup().id))]",
-        "appServicePlanPortalName": "[concat('AppServicePlan-', parameters('webAppName'))]"
+        "appServicePlanPortalName": "[parameters('appServicePlanName')]"
     },
     "resources": 
     [
