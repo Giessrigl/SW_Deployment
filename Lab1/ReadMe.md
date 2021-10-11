@@ -1,7 +1,5 @@
 # Lab1
 
-  
-
 This is the first exercise of the Software Deployment course in the 5th semester of my bachelor in computer science degree.
 
 The task is to deploy an ARM template to Azure including:
