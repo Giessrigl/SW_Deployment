@@ -1,4 +1,6 @@
 # Lab2
+## Link zu dem in Azure DevOps verwendeten Repo der Node.js App
+https://github.com/Giessrigl/Lab2
 
 ## Links zu Web App
 ### Dev
@@ -10,8 +12,10 @@ https://christian-giessrigl-lab2-release.azurewebsites.net/
 ![Pipeline](./Screenshots/Pipeline.JPG)
 
 ## Screenshot der Azure DevOps Release Pipeline
+### Dev
 ![Dev](./Screenshots/dev_Release.JPG)
 
+### Production
 ![Production](./Screenshots/release_Release.JPG)
 
 
