@@ -32,7 +32,7 @@ Dafür muss auf den ausgegrauten Knopf in der Spalte ,,Stages" gedrückt werden.
 ![Not deployede](./Screenshots/not_deployed2.jpg)
 
 Im nächsten Bildschirm dann oben auf Deploy klicken. Fertig.
-![Deployed](./Screenshots/deployed2.jpg)
+![Deployed](./Screenshots/deploy2.jpg)
 
 ## Application Insights
 ![Application Insights](./Screenshots/release_insights.JPG)
