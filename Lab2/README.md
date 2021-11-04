@@ -7,12 +7,12 @@ https://christian-giessrigl-lab2.azurewebsites.net/
 https://christian-giessrigl-lab2-release.azurewebsites.net/
 
 ## Screenshot der Azure DevOps build/Test/Deploy Pipeline incl.  erfolgreicher und nicht erfolgreicher Deployments
-![Pipeline](./Screenshots/Pipeline.jpg)
+![Pipeline](./Screenshots/Pipeline.JPG)
 
 ## Screenshot der Azure DevOps Release Pipeline
-![Dev](./Screenshots/dev_Release.jpg)
+![Dev](./Screenshots/dev_Release.JPG)
 
-![Production](./Screenshots/release_Release.jpg)
+![Production](./Screenshots/release_Release.JPG)
 
 
 ## Dokumentation wie die Releases freigegeben werden
@@ -24,4 +24,4 @@ Damit öffnet sich ein neues Fenster in dem man bestimmen kann welche Drop Versi
 ![Create new release](./Screenshots/create_new_release2.jpg)
 
 ## Application Insights
-![Application Insights](./Screenshots/release_insights.jpg)
+![Application Insights](./Screenshots/release_insights.JPG)
