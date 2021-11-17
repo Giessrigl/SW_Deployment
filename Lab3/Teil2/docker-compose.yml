@@ -1,22 +1,36 @@
 version: "3.9"
 services:
   lamp:
+    depends_on:
+      - mysql
     ports:
       - "80:80"
-    image: ${DOCKER_REGISTRY-}lamp
+    restart: always
     build:
       context: .
       dockerfile: LAMP/Dockerfile
+    volumes:
+      - wordpress_data:/var/www/html
     networks:
       - backend
   mysql:
-    image: ${DOCKER_REGISTRY-}mysql
+    restart: always
     build:
       context: .
       dockerfile: MySQL/Dockerfile
+    volumes:
+      - db_data:/var/lib/mysql
     networks:
       - backend
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: wpdatabase
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: 1234
 networks:
   backend:
     name: lab3network
     driver: bridge
+volumes:
+  db_data: {}
+  wordpress_data: {}
