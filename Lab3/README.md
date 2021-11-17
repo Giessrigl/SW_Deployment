@@ -42,6 +42,7 @@ To use debian:jessie, the Dockerfile needs the following line:
 
 ### Wordpress
 [How To Install LAMP & WordPress on Debian 8](https://www.youtube.com/watch?v=ZZzSxiFo8sM&ab_channel=LinuxLab)
+
 just used the wordpress part.
 
 ### How to build the image:
@@ -56,6 +57,7 @@ just used the wordpress part.
 also use Debian:jessie like in the other image
 
 [Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
+
 Use this Wordpress [Guide](https://www.youtube.com/watch?v=ZZzSxiFo8sM&ab_channel=LinuxLab) for setting up database in mysql.
 
 Before installing the mysql-server package, there is the need to define a root password beforehand, or use the "expect" package to define the answer to setting a password after downloading the mysql-server package.
