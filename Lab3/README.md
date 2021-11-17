@@ -87,7 +87,9 @@ this would result in mysql not being able to read, write or create files and the
 
 ## Networking
 [Container pinging](https://www.digitalocean.com/community/questions/how-to-ping-docker-container-from-another-container-by-name)
+
 Create a docker network.
+
 Connect both containers to the network.
 
 This can also be done in the docker-compose file (see [this](https://docs.docker.com/compose/networking/) ).
