@@ -31,17 +31,18 @@ To use debian:jessie, the Dockerfile needs the following line:
 > FROM debian:jessie
 
 ### Apache
-[Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
+[How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Debian](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
 
 > apt-get install apache2 -y
 
 ### PHP
-[Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
+[How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Debian](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
 
 > apt-get install php5 php-pear php5-mysql php5-gd -y
 
 ### Wordpress
 [How To Install LAMP & WordPress on Debian 8](https://www.youtube.com/watch?v=ZZzSxiFo8sM&ab_channel=LinuxLab)
+
 just used the wordpress part.
 
 ### How to build the image:
@@ -55,7 +56,8 @@ just used the wordpress part.
 ## MySQL Image
 also use Debian:jessie like in the other image
 
-[Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
+[How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Debian](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
+
 Use this Wordpress [Guide](https://www.youtube.com/watch?v=ZZzSxiFo8sM&ab_channel=LinuxLab) for setting up database in mysql.
 
 Before installing the mysql-server package, there is the need to define a root password beforehand, or use the "expect" package to define the answer to setting a password after downloading the mysql-server package.
@@ -84,8 +86,10 @@ this would result in mysql not being able to read, write or create files and the
 > docker build -t tag .
 
 ## Networking
-[Guide](https://www.digitalocean.com/community/questions/how-to-ping-docker-container-from-another-container-by-name)
+[Container pinging](https://www.digitalocean.com/community/questions/how-to-ping-docker-container-from-another-container-by-name)
+
 Create a docker network.
+
 Connect both containers to the network.
 
 This can also be done in the docker-compose file (see [this](https://docs.docker.com/compose/networking/) ).
