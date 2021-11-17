@@ -31,12 +31,12 @@ To use debian:jessie, the Dockerfile needs the following line:
 > FROM debian:jessie
 
 ### Apache
-[Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
+[How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Debian](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
 
 > apt-get install apache2 -y
 
 ### PHP
-[Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
+[How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Debian](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
 
 > apt-get install php5 php-pear php5-mysql php5-gd -y
 
@@ -56,7 +56,7 @@ just used the wordpress part.
 ## MySQL Image
 also use Debian:jessie like in the other image
 
-[Guide](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
+[How To Install Linux, Apache, MySQL, PHP (LAMP) stack on Debian](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-debian)
 
 Use this Wordpress [Guide](https://www.youtube.com/watch?v=ZZzSxiFo8sM&ab_channel=LinuxLab) for setting up database in mysql.
 
@@ -86,7 +86,7 @@ this would result in mysql not being able to read, write or create files and the
 > docker build -t tag .
 
 ## Networking
-[Guide](https://www.digitalocean.com/community/questions/how-to-ping-docker-container-from-another-container-by-name)
+[Container pinging](https://www.digitalocean.com/community/questions/how-to-ping-docker-container-from-another-container-by-name)
 Create a docker network.
 Connect both containers to the network.
 
