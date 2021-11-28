@@ -12,7 +12,7 @@
         "linuxFxVersion": 
         {
             "type": "string",
-            "defaultValue": "NODE|10.15"
+            "defaultValue": "NODE|14-lts"
         },
         "repoUrl": 
         {
