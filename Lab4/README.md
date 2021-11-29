@@ -30,3 +30,9 @@ Things I tried:
 3. Use the on-installation-created database for the Database Name to connect to (in the wordpressdeployment.yaml).
 
 After identifying the problem (pod could not start because of the volume definition in mysqldeployment.yaml) I commented out the volume definition. I haven't found the error but a colleague explained the possibility of the mysql version not being compatible with the volume for the AKS.
+
+## Screenshots
+![Website](MyWebsite.JPG)
+
+![Services](IP-Proof.JPG)
+
