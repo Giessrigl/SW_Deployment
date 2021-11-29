@@ -14,6 +14,8 @@ If you want to use kubectl commands you have to change the [Namespace](https://k
 
 * I added some environment variables described in the images dokumentation ([MySQL](https://hub.docker.com/_/mysql) & [Wordpress](https://hub.docker.com/_/wordpress).
 
+* Reduced the volume storage capacity of 20 Gigabyte in the persistentVolumeClaims.yaml (wordpress 2gb, mysql 4 gb).
+
 * Used the .bat script in 6th step for deployment in AKS without the lines for the ingress-controller-yaml and the .password.txt and run it in Powershell after:
 1. az login
 2. az aks get-credentials --resource-group {RG_Name} --name {Cluter_Name}
@@ -26,7 +28,7 @@ https://stackoverflow.com/questions/64122513/aks-cluster-created-has-no-external
 * Lastly I could not establish a database connection when setting up wordpress.
 Things I tried:
 1. Use a static cluster ip address in services.yaml instead of "None".
-2. Use an internal LoadBalancer instead of ClusterIP as type -> [Internal lb](https://docs.microsoft.com/en-us/azure/aks/internal-lb) and connect wordpress to the "external ip address" of mysql.
+2. Use an [internal LoadBalancer](https://docs.microsoft.com/en-us/azure/aks/internal-lb) instead of ClusterIP as type and connect wordpress to the "external ip address" of mysql.
 3. Use the on-installation-created database for the Database Name to connect to (in the wordpressdeployment.yaml).
 4. Changed the mysql version (from 5.7 to 5.6) after a colleague explained the possibility of the mysql version not being compatible with the volume for the AKS.
 
